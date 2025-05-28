@@ -12,6 +12,14 @@ body{
     justify-content: space-between;
     height: 60px;
     align-items: center;
+    
+}
+
+.categoria-cardapio{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .g-01 {
@@ -28,8 +36,79 @@ body{
     font-weight: 100;
     font-size: small;
 }
+
 .textinho{
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
+}
+#cardapio-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;      
+    white-space: nowrap;   
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.cardapio-item{
+    padding-right: 10px;
+    padding-right: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 8px solid #8b2e2e;
+    padding-bottom: 20px;
+    margin-right: 12px;
+    max-width: 250px;
+    min-width: 250px;
+}
+.cardapio-img {
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: -4px;
+
+  }
+
+  .textao-card {
+    margin-left: 6px;
+    color: #8b2e2e;
+    margin-bottom: -10px;
+  }
+
+  .textinho-card {
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+  }
+
+  .preco-card {
+    margin-left: 6px;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+.footer {
+    position: fixed;      
+    bottom: 0;            
+    width: 100%;          
+    height: 50px;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textinho_footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(134, 134, 134);
+    font-size: 10px;
 }
