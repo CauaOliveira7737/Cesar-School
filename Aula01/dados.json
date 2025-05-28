@@ -1,0 +1,21 @@
+[
+    {
+      "nome": "Feijoada Completa",
+      "descricao": "Acompanhada de arroz, couve e laranja",
+      "preco": 35.90,
+      "imagem": "https://th.bing.com/th/id/R.452a05e7918ae81bf42090040639cb5c?rik=ON8nFsUb94XrLg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k1AW-E1N3cg%2fUy4L0nq9pmI%2fAAAAAAAABK8%2fiCuNLle9pf0%2fs1600%2ffeijoada-completa-smoked-meat-and-black-bean-stew-brazilian-food-recipe.jpg&ehk=o1ao%2b2R9g49clej0u%2f8dRiDvFC2%2bDDhjq6O9zKXxH5A%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "nome": "Cuzcuz Paulista",
+      "descricao": "Flocos de milho e panela",
+      "preco": 42.00,
+      "imagem":"https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/09130109/Cuscuz-paulista.jpg"
+    },
+    {
+      "nome": "Strogonoff de Frango",
+      "descricao": "Com arroz e batata palha",
+      "preco": 29.50,
+      "imagem": "https://img.cybercook.com.br/receitas/30/strogonoff-pratico-de-frango-e-arroz.jpeg"
+    }
+  ]
+  
